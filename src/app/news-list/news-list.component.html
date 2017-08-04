@@ -1,0 +1,12 @@
+<p>
+  news-list works!
+</p>
+<p>
+  {{news}}
+</p>
+
+<div class="container" *ngFor="let new of news">
+   <img src="{{new.data.thumbnail}}"> 
+   <p>{{new.data.title}}</p>
+</div>
+
